@@ -1,0 +1,680 @@
+ 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>单井油井日报</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: "宋体";
+	font-size: 18px;
+}
+.style2 {color: #0000FF}
+.style10 {font-size: 24px}
+.style11 {color: #FF0000}
+body {
+	background-color: #CDCDE4;
+}
+.style12 {
+	font-size: 14px;
+	font-family: "宋体";
+}
+.style13 {font-family: "宋体"}
+.style14 {font-size: 14px}
+-->
+</style>
+</head>
+
+<body>
+<p align="center" class="style1 style2">
+  
+  <span class="style10">SHS8-X004  油 井 日 报</span></span>  
+  
+</p>
+<p align="center" class="style1 style2">　</p>
+<form name="form1" method="post" action="yjrb.asp?jh=SHS8-X004">
+  <div align="center"><span class="style12"><span class="style11">更多查询：</span>    
+    <input name="nian1" type="text" id="nian1" value="2021" size="4" maxlength="4">
+    </span><span class="style12">年
+         <select name="yue1" id="yue1">
+           <option value=02>02</option>
+           <option value="01">01</option>
+           <option value="02">02</option>
+           <option value="03">03</option>
+           <option value="04">04</option>
+           <option value="05">05</option>
+           <option value="06">06</option>
+           <option value="07">07</option>
+           <option value="08">08</option>
+           <option value="09">09</option>
+           <option value="10">10</option>
+           <option value="11">11</option>
+           <option value="12">12</option>	
+         </select> 
+         月 
+          <select name="ri1" id="ri1">
+            <option value=01>01</option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
+         日<span class="style11">至</span>
+    <input name="nian2" type="text" id="nian2" value="2021" size="4" maxlength="4">
+年
+         <select name="yue2" id="yue2">
+           <option value=02 selected>02</option>
+           <option value="01">01</option>
+           <option value="02">02</option>
+           <option value="03">03</option>
+           <option value="04">04</option>
+           <option value="05">05</option>
+           <option value="06">06</option>
+           <option value="07">07</option>
+           <option value="08">08</option>
+           <option value="09">09</option>
+           <option value="10">10</option>
+           <option value="11">11</option>
+           <option value="12">12</option>
+         </select>
+月
+<select name="ri2" id="ri2">
+      <option value=19 selected>19</option>
+      <option value="01">01</option>
+      <option value="02">02</option>
+      <option value="03">03</option>
+      <option value="04">04</option>
+      <option value="05">05</option>
+      <option value="06">06</option>
+      <option value="07">07</option>
+      <option value="08">08</option>
+      <option value="09">09</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>  
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+      <option value="29">29</option>
+      <option value="30">30</option>
+      <option value="31">31</option>
+</select>
+日    
+<input type="submit" name="Submit" value="提交">
+  </span></div>
+</form>   
+<table width="946" border="1" align="center" cellspacing="0" bordercolorlight="#999999" bordercolordark="#FFF8F0">
+  <tr bgcolor="#FDDCBB">
+    <td width="18" class="style12"><div align="center">序号</div></td>
+    <td width="100" class="style12"><div align="center">日期</div></td>
+    <td width="18" class="style12">队号</td>
+    <td width="24" class="style12"><div align="center">生产时间</div></td>
+	<td width="24" class="style9 style13 style14">泵径</td>
+	<td width="24" class="style9 style13 style14">泵深</td>
+	<td width="24" class="style9 style13 style14">冲程</td>
+	<td width="24" class="style9 style13 style14">冲次</td>
+	<td width="24" class="style9 style13 style14">排量</td>
+	<td width="17" class="style9 style13 style14">油嘴</td>
+	<td width="22" class="style12">套压</td>
+	<td width="21" class="style12">油压</td>
+	<td width="21" class="style12">耗电量</td>
+	<td width="29" class="style12"><div align="center">日液</div></td>
+    <td width="31" class="style12"><div align="center">井口日油</div></td>
+	<td width="24" class="style12"><div align="center">报表日油</div></td>
+    <td width="25" class="style12"><div align="center">日水</div></td>
+    <td width="25" class="style12"><div align="center">日气</div></td>
+    <td width="23" class="style12"><div align="center">含水</div></td>
+    <td width="29" class="style12">气油比</td>
+    <td width="129" class="style12">备注代码</td>
+    <td width="272" class="style12"><div align="center">备注</div></td>
+  </tr>
+
+<tr bgcolor="#F7EEFF">  
+  
+    <td class="style12">1</td>
+    <td class="style12"><div align="center">2021-02-19</div></td>
+    <td class="style12">507</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.1&nbsp;</td>
+    <td class="style9 style13 style14">2.37&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">147&nbsp;</td>
+    <td class="style12">15.9</td>
+	<td class="style12">1.5</td>
+	<td class="style12">1.5</td>
+    <td class="style12">14.4</td>
+    <td class="style12">0</td>
+    <td class="style12">90.07</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+  </tr>
+
+
+    <td class="style12">2</td>
+    <td class="style12"><div align="center">2021-02-18</div></td>
+    <td class="style12">507</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.09&nbsp;</td>
+    <td class="style9 style13 style14">2.37&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">151&nbsp;</td>
+    <td class="style12">15.9</td>
+	<td class="style12">1.4</td>
+	<td class="style12">1.4</td>
+    <td class="style12">14.5</td>
+    <td class="style12">0</td>
+    <td class="style12">90.58</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+  </tr>
+
+<tr bgcolor="#F7EEFF">  
+  
+    <td class="style12">3</td>
+    <td class="style12"><div align="center">2021-02-17</div></td>
+    <td class="style12">507</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.04&nbsp;</td>
+    <td class="style9 style13 style14">2.38&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">152&nbsp;</td>
+    <td class="style12">15.9</td>
+	<td class="style12">1.2</td>
+	<td class="style12">1.2</td>
+    <td class="style12">14.7</td>
+    <td class="style12">0</td>
+    <td class="style12">91.85</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+  </tr>
+
+
+    <td class="style12">4</td>
+    <td class="style12"><div align="center">2021-02-16</div></td>
+    <td class="style12">507</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.08&nbsp;</td>
+    <td class="style9 style13 style14">2.37&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">150&nbsp;</td>
+    <td class="style12">15.9</td>
+	<td class="style12">1</td>
+	<td class="style12">1</td>
+    <td class="style12">14.9</td>
+    <td class="style12">0</td>
+    <td class="style12">93.39</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+  </tr>
+
+<tr bgcolor="#F7EEFF">  
+  
+    <td class="style12">5</td>
+    <td class="style12"><div align="center">2021-02-15</div></td>
+    <td class="style12">507</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.08&nbsp;</td>
+    <td class="style9 style13 style14">2.37&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">148&nbsp;</td>
+    <td class="style12">15.8</td>
+	<td class="style12">1.4</td>
+	<td class="style12">1.4</td>
+    <td class="style12">14.4</td>
+    <td class="style12">0</td>
+    <td class="style12">90.89</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+  </tr>
+
+
+    <td class="style12">6</td>
+    <td class="style12"><div align="center">2021-02-14</div></td>
+    <td class="style12">507</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.06&nbsp;</td>
+    <td class="style9 style13 style14">2.38&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">143&nbsp;</td>
+    <td class="style12">15.9</td>
+	<td class="style12">1.8</td>
+	<td class="style12">1.8</td>
+    <td class="style12">14.1</td>
+    <td class="style12">0</td>
+    <td class="style12">88.41</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+  </tr>
+
+<tr bgcolor="#F7EEFF">  
+  
+    <td class="style12">7</td>
+    <td class="style12"><div align="center">2021-02-13</div></td>
+    <td class="style12">507</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.11&nbsp;</td>
+    <td class="style9 style13 style14">2.38&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">144&nbsp;</td>
+    <td class="style12">15.9</td>
+	<td class="style12">1.3</td>
+	<td class="style12">1.3</td>
+    <td class="style12">14.6</td>
+    <td class="style12">0</td>
+    <td class="style12">91.24</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+  </tr>
+
+
+    <td class="style12">8</td>
+    <td class="style12"><div align="center">2021-02-12</div></td>
+    <td class="style12">507</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.09&nbsp;</td>
+    <td class="style9 style13 style14">2.37&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">144&nbsp;</td>
+    <td class="style12">15.8</td>
+	<td class="style12">1.1</td>
+	<td class="style12">1.1</td>
+    <td class="style12">14.7</td>
+    <td class="style12">0</td>
+    <td class="style12">92.61</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+  </tr>
+
+<tr bgcolor="#F7EEFF">  
+  
+    <td class="style12">9</td>
+    <td class="style12"><div align="center">2021-02-11</div></td>
+    <td class="style12">507</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.08&nbsp;</td>
+    <td class="style9 style13 style14">2.38&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">147&nbsp;</td>
+    <td class="style12">15.9</td>
+	<td class="style12">1.5</td>
+	<td class="style12">1.5</td>
+    <td class="style12">14.4</td>
+    <td class="style12">0</td>
+    <td class="style12">90.03</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+  </tr>
+
+
+    <td class="style12">10</td>
+    <td class="style12"><div align="center">2021-02-10</div></td>
+    <td class="style12">507</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.03&nbsp;</td>
+    <td class="style9 style13 style14">2.38&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">146&nbsp;</td>
+    <td class="style12">15.9</td>
+	<td class="style12">1.3</td>
+	<td class="style12">1.3</td>
+    <td class="style12">14.6</td>
+    <td class="style12">0</td>
+    <td class="style12">91.8</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+  </tr>
+
+<tr bgcolor="#F7EEFF">  
+  
+    <td class="style12">11</td>
+    <td class="style12"><div align="center">2021-02-09</div></td>
+    <td class="style12">507</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.08&nbsp;</td>
+    <td class="style9 style13 style14">2.38&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">147&nbsp;</td>
+    <td class="style12">15.9</td>
+	<td class="style12">1.2</td>
+	<td class="style12">1.2</td>
+    <td class="style12">14.7</td>
+    <td class="style12">0</td>
+    <td class="style12">92.1</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+  </tr>
+
+
+    <td class="style12">12</td>
+    <td class="style12"><div align="center">2021-02-08</div></td>
+    <td class="style12">507</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.07&nbsp;</td>
+    <td class="style9 style13 style14">2.38&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">151&nbsp;</td>
+    <td class="style12">15.9</td>
+	<td class="style12">.5</td>
+	<td class="style12">.5</td>
+    <td class="style12">15.4</td>
+    <td class="style12">0</td>
+    <td class="style12">96.83</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+  </tr>
+
+<tr bgcolor="#F7EEFF">  
+  
+    <td class="style12">13</td>
+    <td class="style12"><div align="center">2021-02-07</div></td>
+    <td class="style12">507</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.08&nbsp;</td>
+    <td class="style9 style13 style14">2.37&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">146&nbsp;</td>
+    <td class="style12">15.9</td>
+	<td class="style12">.5</td>
+	<td class="style12">.5</td>
+    <td class="style12">15.4</td>
+    <td class="style12">0</td>
+    <td class="style12">96.5</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+  </tr>
+
+
+    <td class="style12">14</td>
+    <td class="style12"><div align="center">2021-02-06</div></td>
+    <td class="style12">507</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.07&nbsp;</td>
+    <td class="style9 style13 style14">2.38&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">144&nbsp;</td>
+    <td class="style12">16</td>
+	<td class="style12">.5</td>
+	<td class="style12">.5</td>
+    <td class="style12">15.5</td>
+    <td class="style12">0</td>
+    <td class="style12">96.5</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+  </tr>
+
+<tr bgcolor="#F7EEFF">  
+  
+    <td class="style12">15</td>
+    <td class="style12"><div align="center">2021-02-05</div></td>
+    <td class="style12">507</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.08&nbsp;</td>
+    <td class="style9 style13 style14">2.38&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">146&nbsp;</td>
+    <td class="style12">15.9</td>
+	<td class="style12">0</td>
+	<td class="style12">0</td>
+    <td class="style12">15.9</td>
+    <td class="style12">0</td>
+    <td class="style12">100</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+  </tr>
+
+
+    <td class="style12">16</td>
+    <td class="style12"><div align="center">2021-02-04</div></td>
+    <td class="style12">507</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.07&nbsp;</td>
+    <td class="style9 style13 style14">2.37&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">145&nbsp;</td>
+    <td class="style12">15.8</td>
+	<td class="style12">0</td>
+	<td class="style12">0</td>
+    <td class="style12">15.8</td>
+    <td class="style12">0</td>
+    <td class="style12">100</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+  </tr>
+
+<tr bgcolor="#F7EEFF">  
+  
+    <td class="style12">17</td>
+    <td class="style12"><div align="center">2021-02-03</div></td>
+    <td class="style12">507</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.06&nbsp;</td>
+    <td class="style9 style13 style14">2.38&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">148&nbsp;</td>
+    <td class="style12">15.8</td>
+	<td class="style12">.1</td>
+	<td class="style12">.1</td>
+    <td class="style12">15.7</td>
+    <td class="style12">0</td>
+    <td class="style12">99</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+  </tr>
+
+
+    <td class="style12">18</td>
+    <td class="style12"><div align="center">2021-02-02</div></td>
+    <td class="style12">507</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.08&nbsp;</td>
+    <td class="style9 style13 style14">2.37&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">149&nbsp;</td>
+    <td class="style12">15.8</td>
+	<td class="style12">.1</td>
+	<td class="style12">.1</td>
+    <td class="style12">15.7</td>
+    <td class="style12">0</td>
+    <td class="style12">99</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+  </tr>
+
+<tr bgcolor="#F7EEFF">  
+  
+    <td class="style12">19</td>
+    <td class="style12"><div align="center">2021-02-01</div></td>
+    <td class="style12">507</td>
+    <td class="style12">23.38</td>
+    <td class="style9 style13 style14">44&nbsp;</td>
+    <td class="style9 style13 style14">1806.44&nbsp;</td>
+    <td class="style9 style13 style14">5.09&nbsp;</td>
+    <td class="style9 style13 style14">2.38&nbsp;</td>
+    <td class="style9 style13 style14">26.3&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">150&nbsp;</td>
+    <td class="style12">15.2</td>
+	<td class="style12">.1</td>
+	<td class="style12">.1</td>
+    <td class="style12">15.1</td>
+    <td class="style12">0</td>
+    <td class="style12">99</td>
+    <td class="style12"></td>
+    <td class="style12">其它管理原因&nbsp;</td>
+    <td class="style12">2021-01-31 16:33-2021-01-31 16:55检查异响;&nbsp;</td>
+  </tr>
+
+
+  <tr bgcolor="#CCCCFF">
+    <td height="33" colspan="13" class="style12"><div align="center">合计:19天</div></td>
+   
+    <td class="style12">301</td>
+	<td class="style12">16.5</td>
+	<td class="style12">16.5</td>
+    <td class="style12">284.5</td>
+    <td class="style12">0</td>
+    <td class="style12">94.5</td>
+    <td class="style12">　</td>
+    <td class="style12">　</td>
+    <td class="style12">　</td>
+  </tr>
+</table>
+<p>
+  
+</p>
+<p align="center" class="style12">临盘采油厂数据中心 Copyright (C) 2006 Rights Reserved</p>
+<p align="center" class="style12"> Tel：8861554 Email:gujing@slof.com</p>
+<p>　</p>
+</body>
+</html>

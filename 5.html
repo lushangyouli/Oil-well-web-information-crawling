@@ -1,0 +1,395 @@
+ 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>单井油井日报</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: "宋体";
+	font-size: 18px;
+}
+.style2 {color: #0000FF}
+.style10 {font-size: 24px}
+.style11 {color: #FF0000}
+body {
+	background-color: #CDCDE4;
+}
+.style12 {
+	font-size: 12px;
+	font-family: "宋体";
+}
+.style13 {font-family: "宋体"}
+.style14 {font-size: 12px}
+-->
+</style>
+</head>
+
+<body>
+<p align="center" class="style1 style2">
+  
+  <span class="style10">LPP40-CP20  油 井 日 报</span></span>  
+  
+</p>
+<p align="center" class="style1 style2">　</p>
+<form name="form1" method="post" action="yjrb.asp?jh=LPP40-CP20">
+  <div align="center"><span class="style12"><span class="style11">更多查询：</span>    
+    <input name="nian1" type="text" id="nian1" value="2021" size="4" maxlength="4">
+    </span><span class="style12">年
+         <select name="yue1" id="yue1">
+           <option value=02>02</option>
+           <option value="01">01</option>
+           <option value="02">02</option>
+           <option value="03">03</option>
+           <option value="04">04</option>
+           <option value="05">05</option>
+           <option value="06">06</option>
+           <option value="07">07</option>
+           <option value="08">08</option>
+           <option value="09">09</option>
+           <option value="10">10</option>
+           <option value="11">11</option>
+           <option value="12">12</option>	
+         </select> 
+         月 
+          <select name="ri1" id="ri1">
+            <option value=01>01</option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
+         日<span class="style11">至</span>
+    <input name="nian2" type="text" id="nian2" value="2021" size="4" maxlength="4">
+年
+         <select name="yue2" id="yue2">
+           <option value=02 selected>02</option>
+           <option value="01">01</option>
+           <option value="02">02</option>
+           <option value="03">03</option>
+           <option value="04">04</option>
+           <option value="05">05</option>
+           <option value="06">06</option>
+           <option value="07">07</option>
+           <option value="08">08</option>
+           <option value="09">09</option>
+           <option value="10">10</option>
+           <option value="11">11</option>
+           <option value="12">12</option>
+         </select>
+月
+<select name="ri2" id="ri2">
+      <option value=24 selected>24</option>
+      <option value="01">01</option>
+      <option value="02">02</option>
+      <option value="03">03</option>
+      <option value="04">04</option>
+      <option value="05">05</option>
+      <option value="06">06</option>
+      <option value="07">07</option>
+      <option value="08">08</option>
+      <option value="09">09</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>  
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+      <option value="29">29</option>
+      <option value="30">30</option>
+      <option value="31">31</option>
+</select>
+日    
+<input type="submit" name="Submit" value="提交">
+  </span></div>
+</form>   
+<table width="946" border="1" align="center" cellspacing="0" bordercolorlight="#999999" bordercolordark="#FFF8F0">
+  <tr bgcolor="#FDDCBB">
+    <td width="18" class="style12"><div align="center">序号</div></td>
+    <td width="100" class="style12"><div align="center">日期</div></td>
+    <td width="18" class="style12">队号</td>
+    <td width="24" class="style12"><div align="center">生产时间</div></td>
+	<td width="24" class="style9 style13 style14">泵径</td>
+	<td width="24" class="style9 style13 style14">泵深</td>
+	<td width="24" class="style9 style13 style14">冲程</td>
+	<td width="24" class="style9 style13 style14">冲次</td>
+	<td width="24" class="style9 style13 style14">排量</td>
+	<td width="17" class="style9 style13 style14">油嘴</td>
+	<td width="22" class="style12">套压</td>
+	<td width="21" class="style12">油压</td>
+	<td width="21" class="style12">耗电量</td>
+	<td width="29" class="style12"><div align="center">日液</div></td>
+    <td width="31" class="style12"><div align="center">井口日油</div></td>
+	<td width="24" class="style12"><div align="center">报表日油</div></td>
+    <td width="25" class="style12"><div align="center">日水</div></td>
+    <td width="25" class="style12"><div align="center">日气</div></td>
+    <td width="23" class="style12"><div align="center">含水</div></td>
+    <td width="29" class="style12">气油比</td>
+    <td width="29" class="style12">备注代码</td>
+    <td width="29" class="style12">备注代码1</td>
+    <td width="272" class="style12"><div align="center">备注</div></td>
+  </tr>
+
+
+  <tr bgcolor="#FFF8F0">
+  
+    <td class="style12">1</td>
+    <td class="style12"><div align="center">2021-02-16</div></td>
+    <td class="style12">801</td>
+    <td class="style12">10.31</td>
+    <td class="style9 style13 style14">57&nbsp;</td>
+    <td class="style9 style13 style14">1198.67&nbsp;</td>
+    <td class="style9 style13 style14">4.8&nbsp;</td>
+    <td class="style9 style13 style14">1.68&nbsp;</td>
+    <td class="style9 style13 style14">29.6&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">42&nbsp;</td>
+    <td class="style12">8.7</td>
+	<td class="style12">0</td>
+	<td class="style12">0</td>
+    <td class="style12">8.7</td>
+    <td class="style12">0</td>
+    <td class="style12">100</td>
+    <td class="style12"></td>
+    <td class="style12">1TA0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">2021-02-14 08:00-2021-02-15 21:29新井投产;2021.2.15调参;&nbsp;</td>
+  </tr>
+
+
+  <tr bgcolor="#F7EEFF">  
+  
+    <td class="style12">2</td>
+    <td class="style12"><div align="center">2021-02-17</div></td>
+    <td class="style12">801</td>
+    <td class="style12">19.32</td>
+    <td class="style9 style13 style14">57&nbsp;</td>
+    <td class="style9 style13 style14">1198.67&nbsp;</td>
+    <td class="style9 style13 style14">4.76&nbsp;</td>
+    <td class="style9 style13 style14">1.68&nbsp;</td>
+    <td class="style9 style13 style14">29.6&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">135&nbsp;</td>
+    <td class="style12">16.2</td>
+	<td class="style12">3.2</td>
+	<td class="style12">3.2</td>
+    <td class="style12">13</td>
+    <td class="style12">0</td>
+    <td class="style12">80</td>
+    <td class="style12"></td>
+    <td class="style12">2916&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">2021.02.16 08:56-2021.02.16 10:06作业队搬家;2021.02.16 10:54-2021.02.16 13:47换罐;2021.02.16 17:43-2021.02.16 18:08进流程&nbsp;</td>
+  </tr>
+
+
+  <tr bgcolor="#FFF8F0">
+  
+    <td class="style12">3</td>
+    <td class="style12"><div align="center">2021-02-18</div></td>
+    <td class="style12">801</td>
+    <td class="style12">23.44</td>
+    <td class="style9 style13 style14">57&nbsp;</td>
+    <td class="style9 style13 style14">1198.67&nbsp;</td>
+    <td class="style9 style13 style14">4.78&nbsp;</td>
+    <td class="style9 style13 style14">1.67&nbsp;</td>
+    <td class="style9 style13 style14">29.6&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">173&nbsp;</td>
+    <td class="style12">19.2</td>
+	<td class="style12">9.6</td>
+	<td class="style12">9.6</td>
+    <td class="style12">9.6</td>
+    <td class="style12">0</td>
+    <td class="style12">50</td>
+    <td class="style12"></td>
+    <td class="style12">2916&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">2021.02.17 08:18-2021.02.17 08:34放作业架子;降粘剂:10kg&nbsp;</td>
+  </tr>
+
+
+  <tr bgcolor="#F7EEFF">  
+  
+    <td class="style12">4</td>
+    <td class="style12"><div align="center">2021-02-19</div></td>
+    <td class="style12">801</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">57&nbsp;</td>
+    <td class="style9 style13 style14">1198.67&nbsp;</td>
+    <td class="style9 style13 style14">4.78&nbsp;</td>
+    <td class="style9 style13 style14">1.67&nbsp;</td>
+    <td class="style9 style13 style14">29.6&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">175&nbsp;</td>
+    <td class="style12">19.1</td>
+	<td class="style12">13</td>
+	<td class="style12">13</td>
+    <td class="style12">6.1</td>
+    <td class="style12">0</td>
+    <td class="style12">32</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">降粘剂:10kg&nbsp;</td>
+  </tr>
+
+
+  <tr bgcolor="#FFF8F0">
+  
+    <td class="style12">5</td>
+    <td class="style12"><div align="center">2021-02-20</div></td>
+    <td class="style12">801</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">57&nbsp;</td>
+    <td class="style9 style13 style14">1198.67&nbsp;</td>
+    <td class="style9 style13 style14">4.77&nbsp;</td>
+    <td class="style9 style13 style14">1.67&nbsp;</td>
+    <td class="style9 style13 style14">29.6&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">170&nbsp;</td>
+    <td class="style12">18.6</td>
+	<td class="style12">14.1</td>
+	<td class="style12">14</td>
+    <td class="style12">4.5</td>
+    <td class="style12">0</td>
+    <td class="style12">24</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">降粘剂:10kg&nbsp;</td>
+  </tr>
+
+
+  <tr bgcolor="#F7EEFF">  
+  
+    <td class="style12">6</td>
+    <td class="style12"><div align="center">2021-02-21</div></td>
+    <td class="style12">801</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">57&nbsp;</td>
+    <td class="style9 style13 style14">1198.67&nbsp;</td>
+    <td class="style9 style13 style14">4.77&nbsp;</td>
+    <td class="style9 style13 style14">1.67&nbsp;</td>
+    <td class="style9 style13 style14">29.6&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">170&nbsp;</td>
+    <td class="style12">18.8</td>
+	<td class="style12">16</td>
+	<td class="style12">16</td>
+    <td class="style12">2.8</td>
+    <td class="style12">0</td>
+    <td class="style12">15</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">降粘剂:10kg&nbsp;</td>
+  </tr>
+
+
+  <tr bgcolor="#FFF8F0">
+  
+    <td class="style12">7</td>
+    <td class="style12"><div align="center">2021-02-22</div></td>
+    <td class="style12">801</td>
+    <td class="style12">24</td>
+    <td class="style9 style13 style14">57&nbsp;</td>
+    <td class="style9 style13 style14">1198.67&nbsp;</td>
+    <td class="style9 style13 style14">4.78&nbsp;</td>
+    <td class="style9 style13 style14">1.67&nbsp;</td>
+    <td class="style9 style13 style14">29.6&nbsp;</td>
+    <td class="style9 style13 style14">&nbsp;</td>
+    <td class="style12">0&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">176&nbsp;</td>
+    <td class="style12">18.8</td>
+	<td class="style12">16.4</td>
+	<td class="style12">16</td>
+    <td class="style12">2.4</td>
+    <td class="style12">0</td>
+    <td class="style12">13</td>
+    <td class="style12"></td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">&nbsp;</td>
+    <td class="style12">降粘剂:10kg&nbsp;</td>
+  </tr>
+
+
+  <tr bgcolor="#CCCCFF">
+    <td height="33" colspan="13" class="style12"><div align="center">合计:7天</div></td>
+   
+    <td class="style12">119.4</td>
+	<td class="style12">72.3</td>
+	<td class="style12">71.8</td>
+    <td class="style12">47.1</td>
+    <td class="style12">0</td>
+    <td class="style12">39.6</td>
+    <td class="style12">　</td>
+    <td class="style12">　</td>
+    <td class="style12">　</td>
+    <td class="style12">　</td>
+  </tr>
+</table>
+<p>
+  
+</p>
+<p align="center" class="style12"></p>
+<p align="center" class="style12"> </p>
+<p>　</p>
+</body>
+</html>
+
+
